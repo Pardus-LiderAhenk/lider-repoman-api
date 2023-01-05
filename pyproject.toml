@@ -17,7 +17,9 @@ classifiers = [
     "Operating System :: OS Independent",
 ]
 dependencies = [
-    "django"
+    "django",
+    "requests",
+    "beautifulsoup4"
 ]
 
 [project.urls]
